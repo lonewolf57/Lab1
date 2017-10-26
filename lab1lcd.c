@@ -26,7 +26,7 @@ void main(void)
                                                                                 //selects the second line & fourth character
     while( BusyXLCD());                                                          //waits for the LCD to not be busy
     SetDDRamAddr (0x43);                                                         //sets the pointer at the ddaddr 
-    putrsXLCD ("hello");                                                         //writes the sting of characters to the LCD
+    putrsXLCD ("Hello World");                                                         //writes the sting of characters to the LCD
     
     while(1)
     {}
